@@ -3,7 +3,6 @@ import "./globals.css";
 import { I18nProvider } from "@/components/I18nProvider";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ChatWidget from "@/components/ChatWidget";
 
 export const metadata: Metadata = {
   title: "KI in der Lehre · Despina Fidanoglu · UZH",
@@ -25,7 +24,6 @@ export default function RootLayout({
             <main className="flex-1">{children}</main>
             <Footer />
           </div>
-          <ChatWidget />
         </I18nProvider>
       </body>
     </html>
