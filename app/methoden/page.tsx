@@ -1,6 +1,6 @@
 "use client";
 
-import MethodsGrid from "@/components/MethodsGrid";
+import MethodsAccordion from "@/components/MethodsAccordion";
 import { useI18n } from "@/components/I18nProvider";
 import { ui } from "@/data/translations";
 import { t } from "@/lib/i18n";
@@ -18,7 +18,7 @@ export default function MethodenPage() {
       <p className="text-lg text-gray-800 max-w-3xl leading-relaxed mb-10">
         {t(ui.methods_intro, lang)}
       </p>
-      <MethodsGrid />
+      <MethodsAccordion />
     </div>
   );
 }

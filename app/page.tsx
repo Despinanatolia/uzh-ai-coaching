@@ -38,35 +38,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Who */}
-      <section className="border-b border-gray-200">
-        <div className="max-w-content mx-auto px-6 py-16 grid md:grid-cols-3 gap-12">
-          <h2 className="text-2xl font-semibold text-uzh-blue md:col-span-1">
-            {t(ui.home_who_title, lang)}
-          </h2>
-          <p className="md:col-span-2 text-lg leading-relaxed text-gray-800">
-            {t(ui.home_who_text, lang)}
-          </p>
-        </div>
-      </section>
-
-      {/* Project */}
-      <section className="border-b border-gray-200 bg-uzh-blue-light">
-        <div className="max-w-content mx-auto px-6 py-16 grid md:grid-cols-3 gap-12">
-          <div className="md:col-span-1">
-            <p className="text-xs uppercase tracking-wide text-uzh-blue font-semibold mb-2">
-              BA-Seminar Moldau · FS 2026
-            </p>
-            <h2 className="text-2xl font-semibold text-uzh-blue">
-              {t(ui.home_project_title, lang)}
-            </h2>
-          </div>
-          <p className="md:col-span-2 text-lg leading-relaxed text-gray-800">
-            {t(ui.home_project_text, lang)}
-          </p>
-        </div>
-      </section>
-
       {/* What you'll find */}
       <section>
         <div className="max-w-content mx-auto px-6 py-20">

@@ -22,21 +22,21 @@ export const ui: Record<string, LocalizedString> = {
     en: "Integrating AI meaningfully into history teaching",
   },
   home_hero_sub: {
-    de: "Ein lebendiges Toolkit aus dem AI-Coaching der Abteilung Lehrentwicklung der UZH — für das BA-Seminar Moldau und darüber hinaus.",
-    en: "A living toolkit from the AI coaching program of the Teaching Development Unit at UZH — for the BA Seminar Moldau and beyond.",
+    de: "Ein lebendiges Toolkit aus dem AI-Coaching der Abteilung Lehrentwicklung der UZH, für das BA-Seminar Moldau und darüber hinaus.",
+    en: "A living toolkit from the AI coaching program of the Teaching Development Unit at UZH, for the BA Seminar Moldau and beyond.",
   },
   home_who_title: { de: "Wer steht hinter diesem Toolkit?", en: "Who is behind this toolkit?" },
   home_who_text: {
-    de: "Ich bin Despina Fidanoglu, AI-Coach an der Abteilung Lehrentwicklung der Universität Zürich. Gemeinsam mit Prof. Daniel Ursprung (Historisches Seminar) entwickle ich didaktisch fundierte Wege, generative KI in den Geschichtsunterricht zu integrieren — ohne die wissenschaftliche Handwerkskunst zu verwässern.",
-    en: "I'm Despina Fidanoglu, AI coach at the Teaching Development Unit of the University of Zurich. Together with Prof. Daniel Ursprung (Department of History), I develop pedagogically grounded ways to integrate generative AI into history teaching — without diluting scholarly craft.",
+    de: "Ich bin Despina Fidanoglu, AI-Coach an der Abteilung Lehrentwicklung der Universität Zürich. Gemeinsam mit Prof. Daniel Ursprung (Historisches Seminar) entwickle ich didaktisch fundierte Wege, generative KI in den Geschichtsunterricht zu integrieren, ohne die wissenschaftliche Handwerkskunst zu verwässern.",
+    en: "I'm Despina Fidanoglu, AI coach at the Teaching Development Unit of the University of Zurich. Together with Prof. Daniel Ursprung (Department of History), I develop pedagogically grounded ways to integrate generative AI into history teaching, without diluting scholarly craft.",
   },
   home_project_title: {
     de: "Aktuelles Projekt: Konzept-Feedback-Agent",
     en: "Current project: Concept Feedback Agent",
   },
   home_project_text: {
-    de: "Für das BA-Seminar Moldau (FS 2026) haben wir einen KI-gestützten Schreibtutor gebaut, der Studierenden formatives Feedback auf ihre Exposés gibt. Der Agent bewertet acht Pflichtbestandteile, stellt Leitfragen statt Musterlösungen und bietet zwei Feedback-Modi — ausführlich oder kompakt. Er ersetzt nicht die Betreuung durch Daniel, sondern bereitet Studierende auf das Besprechungsgespräch vor.",
-    en: "For the BA Seminar Moldau (Spring 2026), we built an AI-powered writing tutor that gives students formative feedback on their proposals. The agent evaluates eight mandatory components, asks guiding questions instead of providing model answers, and offers two feedback modes — detailed or compact. It doesn't replace Daniel's supervision; it prepares students for the consultation.",
+    de: "Für das BA-Seminar Moldau (FS 2026) haben wir einen KI-gestützten Schreibtutor gebaut, der Studierenden formatives Feedback auf ihre Exposés gibt. Der Agent bewertet acht Pflichtbestandteile, stellt Leitfragen statt Musterlösungen und bietet zwei Feedback-Modi, ausführlich oder kompakt. Er ersetzt nicht die Betreuung durch Daniel, sondern bereitet Studierende auf das Besprechungsgespräch vor.",
+    en: "For the BA Seminar Moldau (Spring 2026), we built an AI-powered writing tutor that gives students formative feedback on their proposals. The agent evaluates eight mandatory components, asks guiding questions instead of providing model answers, and offers two feedback modes, detailed or compact. It doesn't replace Daniel's supervision; it prepares students for the consultation.",
   },
   home_what_title: { de: "Was findest du hier?", en: "What will you find here?" },
   home_card_bloom: {
@@ -88,8 +88,8 @@ export const ui: Record<string, LocalizedString> = {
   // Developments page
   dev_title: { de: "KI-Entwicklungen", en: "AI Developments" },
   dev_intro: {
-    de: "Eine kuratierte Chronik aktueller KI-Entwicklungen, die für die Hochschul- und Geschichtslehre relevant sind — mit einer Einschätzung, was sie konkret für Daniels Seminar bedeuten.",
-    en: "A curated chronicle of current AI developments relevant to higher education and history teaching — with an assessment of what they concretely mean for Daniel's seminar.",
+    de: "Eine kuratierte Chronik aktueller KI-Entwicklungen, die für die Hochschul- und Geschichtslehre relevant sind, mit einer Einschätzung, was sie konkret für Daniels Seminar bedeuten.",
+    en: "A curated chronicle of current AI developments relevant to higher education and history teaching, with an assessment of what they concretely mean for Daniel's seminar.",
   },
   dev_what: { de: "Was passiert ist", en: "What happened" },
   dev_impact: { de: "Was das für die Lehre bedeutet", en: "What it means for teaching" },
@@ -129,6 +129,27 @@ export const ui: Record<string, LocalizedString> = {
     de: "Workshops und 1:1-Coaching für Dozierende",
     en: "Workshops and 1:1 coaching for instructors",
   },
+
+  // Methods accordion
+  methods_expand: { de: "Details ansehen", en: "Show details" },
+  methods_collapse: { de: "Zuklappen", en: "Hide" },
+  methods_research_more: { de: "Mehr dazu (Forschung)", en: "Learn more (research)" },
+
+  // Chat widget
+  chat_button: { de: "Fragen zur Website?", en: "Questions about the site?" },
+  chat_title: { de: "Toolkit-Assistent", en: "Toolkit Assistant" },
+  chat_intro: {
+    de: "Stell mir Fragen zu den Methoden, zur Bloom-Taxonomie, zu den KI-Entwicklungen oder zum Seminar. Ich antworte auf Basis der Inhalte dieser Website.",
+    en: "Ask me about the methods, Bloom's taxonomy, AI developments, or the seminar. I answer based on the content of this site.",
+  },
+  chat_placeholder: { de: "Deine Frage...", en: "Your question..." },
+  chat_send: { de: "Senden", en: "Send" },
+  chat_thinking: { de: "Denkt nach...", en: "Thinking..." },
+  chat_error: {
+    de: "Entschuldigung, da ist etwas schiefgelaufen. Versuch es bitte nochmal.",
+    en: "Sorry, something went wrong. Please try again.",
+  },
+  chat_close: { de: "Schliessen", en: "Close" },
 
   // Footer
   footer_rights: {

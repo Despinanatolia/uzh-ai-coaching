@@ -24,8 +24,8 @@ export const developments: Development[] = [
       en: "Anthropic has updated its mid-tier model with Claude Sonnet 4.6. New is a 1-million-token context window (beta), combined with improved agentic search and «extended thinking». In parallel, Anthropic disclosed Claude Mythos Preview, but restricted access to a closed consortium via «Project Glasswing».",
     },
     impact: {
-      de: "Für Daniels Seminararbeit praktisch relevant: Mit 1M Tokens lassen sich ganze Monographien oder umfangreiche Quelleneditionen in einem Prompt verarbeiten, ohne Chunking. Für geisteswissenschaftliches Arbeiten ist das besonders wertvoll, wenn Studierende etwa eine Primärquelle zusammen mit der Sekundärliteratur analysieren lassen wollen. Die eingeschränkte Veröffentlichung von Mythos zeigt zugleich einen Trend: leistungsstärkere Modelle werden selektiv ausgerollt — für die Lehre wird mittelfristig nicht immer das neueste Modell zugänglich sein.",
-      en: "Practically relevant for Daniel's seminar: 1M tokens allow entire monographs or large source editions to be processed in a single prompt, without chunking. Especially valuable in the humanities when students want to analyse a primary source together with secondary literature. The restricted release of Mythos reveals a trend: more powerful models are rolled out selectively — for teaching, the latest model won't always be accessible in the medium term.",
+      de: "Für Daniels Seminararbeit praktisch relevant: Mit 1M Tokens lassen sich ganze Monographien oder umfangreiche Quelleneditionen in einem Prompt verarbeiten, ohne Chunking. Für geisteswissenschaftliches Arbeiten ist das besonders wertvoll, wenn Studierende etwa eine Primärquelle zusammen mit der Sekundärliteratur analysieren lassen wollen. Die eingeschränkte Veröffentlichung von Mythos zeigt zugleich einen Trend: leistungsstärkere Modelle werden selektiv ausgerollt, für die Lehre wird mittelfristig nicht immer das neueste Modell zugänglich sein.",
+      en: "Practically relevant for Daniel's seminar: 1M tokens allow entire monographs or large source editions to be processed in a single prompt, without chunking. Especially valuable in the humanities when students want to analyse a primary source together with secondary literature. The restricted release of Mythos reveals a trend: more powerful models are rolled out selectively, for teaching, the latest model won't always be accessible in the medium term.",
     },
     link: {
       url: "https://www.anthropic.com/news",
@@ -45,8 +45,8 @@ export const developments: Development[] = [
       en: "Instructure, operator of the widely-used LMS Canvas, has released IgniteAI. The agent automates what it describes as «low-value» tasks such as rubric generation, content alignment, and review of discussion contributions. The stated goal is to free up teaching time for mentoring and individual feedback.",
     },
     impact: {
-      de: "Die UZH nutzt OLAT, nicht Canvas, aber die Richtung ist eindeutig: LMS-Anbieter bauen KI-Agenten direkt in die Lernplattform ein und verschieben damit die Frage «Nutze ich KI im Unterricht?» hin zu «Welche LMS-internen KI-Funktionen akzeptiere ich?». Für Daniels Coaching interessant als Gesprächsanlass: Was würde eine automatische Rubric-Erstellung für sein Moldau-Seminar bedeuten — Zeitgewinn oder Verlust didaktischer Schärfe? Das Thema wird in den kommenden Monaten auch in OLAT- und ILIAS-Diskussionen auftauchen.",
-      en: "UZH uses OLAT, not Canvas, but the direction is clear: LMS vendors are embedding AI agents directly into the learning platform, shifting the question from «Do I use AI in class?» to «Which LMS-built-in AI features do I accept?». Useful for Daniel's coaching as a discussion prompt: what would automatic rubric generation mean for his Moldau seminar — time saved or loss of didactic sharpness? The topic will appear in OLAT and ILIAS discussions within the coming months.",
+      de: "Die UZH nutzt OLAT, nicht Canvas, aber die Richtung ist eindeutig: LMS-Anbieter bauen KI-Agenten direkt in die Lernplattform ein und verschieben damit die Frage «Nutze ich KI im Unterricht?» hin zu «Welche LMS-internen KI-Funktionen akzeptiere ich?». Für Daniels Coaching interessant als Gesprächsanlass: Was würde eine automatische Rubric-Erstellung für sein Moldau-Seminar bedeuten, Zeitgewinn oder Verlust didaktischer Schärfe? Das Thema wird in den kommenden Monaten auch in OLAT- und ILIAS-Diskussionen auftauchen.",
+      en: "UZH uses OLAT, not Canvas, but the direction is clear: LMS vendors are embedding AI agents directly into the learning platform, shifting the question from «Do I use AI in class?» to «Which LMS-built-in AI features do I accept?». Useful for Daniel's coaching as a discussion prompt: what would automatic rubric generation mean for his Moldau seminar, time saved or loss of didactic sharpness? The topic will appear in OLAT and ILIAS discussions within the coming months.",
     },
     link: {
       url: "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/03/23/canvas-unrolls-ai-teaching-agent",
@@ -66,8 +66,8 @@ export const developments: Development[] = [
       en: "Schmidt Sciences has announced a new funding round under the «Humanities and AI Virtual Institute». Supported areas include medieval manuscript analysis, archaeological discovery via satellite imagery, and multilingual models for non-English source corpora.",
     },
     impact: {
-      de: "Für Daniel als Osteuropa-Historiker doppelt relevant: (1) Die Förderung mehrsprachiger Modelle adressiert direkt ein Kernproblem seines Forschungsfelds — dominante LLMs sind auf westeuropäischen und englischsprachigen Korpora trainiert und reproduzieren so eine Schieflage in der historiographischen Darstellung. (2) Die geförderten Projekte werden in den nächsten Jahren Werkzeuge produzieren, die auch im Seminar einsetzbar sein werden (z.B. Handschriftenerkennung für kyrillische oder rumänische Quellen). Die Projektliste lohnt sich zu verfolgen.",
-      en: "Doubly relevant for Daniel as an Eastern European historian: (1) Funding for multilingual models directly addresses a core problem of his field — dominant LLMs are trained on Western European and English-language corpora and reproduce a bias in historiographical representation. (2) Funded projects will produce tools usable in teaching over the coming years (e.g. handwriting recognition for Cyrillic or Romanian sources). Worth keeping an eye on the project list.",
+      de: "Für Daniel als Osteuropa-Historiker doppelt relevant: (1) Die Förderung mehrsprachiger Modelle adressiert direkt ein Kernproblem seines Forschungsfelds, dominante LLMs sind auf westeuropäischen und englischsprachigen Korpora trainiert und reproduzieren so eine Schieflage in der historiographischen Darstellung. (2) Die geförderten Projekte werden in den nächsten Jahren Werkzeuge produzieren, die auch im Seminar einsetzbar sein werden (z.B. Handschriftenerkennung für kyrillische oder rumänische Quellen). Die Projektliste lohnt sich zu verfolgen.",
+      en: "Doubly relevant for Daniel as an Eastern European historian: (1) Funding for multilingual models directly addresses a core problem of his field, dominant LLMs are trained on Western European and English-language corpora and reproduce a bias in historiographical representation. (2) Funded projects will produce tools usable in teaching over the coming years (e.g. handwriting recognition for Cyrillic or Romanian sources). Worth keeping an eye on the project list.",
     },
     link: {
       url: "https://www.schmidtsciences.org/humanities-and-ai-virtual-institute/",
@@ -87,8 +87,8 @@ export const developments: Development[] = [
       en: "Google for Education is rolling out a free, modular training offering designed to enable teachers at all levels to integrate AI safely and productively. Modules range from prompt literacy to AI-assisted assessment.",
     },
     impact: {
-      de: "Die Qualität freier Fortbildungsangebote steigt rapide — Dozierende müssen nicht auf universitätsinterne Kurse warten. Für Daniels Seminar interessant: einzelne Module (insb. zu Prompt-Design und Assessment) können als Vorbereitung für das eigene Coaching oder als Selbstlern-Ressource für Studierende eingesetzt werden.",
-      en: "The quality of free training is rising fast — instructors don't have to wait for in-house university courses. Relevant for Daniel's seminar: individual modules (especially prompt design and assessment) can be used as preparation for coaching or as a self-study resource for students.",
+      de: "Die Qualität freier Fortbildungsangebote steigt rapide, Dozierende müssen nicht auf universitätsinterne Kurse warten. Für Daniels Seminar interessant: einzelne Module (insb. zu Prompt-Design und Assessment) können als Vorbereitung für das eigene Coaching oder als Selbstlern-Ressource für Studierende eingesetzt werden.",
+      en: "The quality of free training is rising fast, instructors don't have to wait for in-house university courses. Relevant for Daniel's seminar: individual modules (especially prompt design and assessment) can be used as preparation for coaching or as a self-study resource for students.",
     },
   },
   {
@@ -104,8 +104,8 @@ export const developments: Development[] = [
       en: "The Boston school authority became the first major US city to decide that a demonstrable AI literacy component will be a graduation requirement starting with the class of 2027. The decision is part of a broader K-12 trend in which AI literacy is being anchored as a standalone competency alongside digital literacy.",
     },
     impact: {
-      de: "Studierende, die in den kommenden Jahren an die Universität kommen, werden zunehmend KI-vertraut sein — aber nicht notwendigerweise KI-kritisch. Die Universität muss ihre Lehre auf ein neues Vorwissen einstellen: weniger «Was kann KI?», mehr «Wann darf ich KI nicht nutzen, und warum nicht?».",
-      en: "Students entering university in coming years will be increasingly AI-familiar — but not necessarily AI-critical. University teaching needs to adjust to new prior knowledge: less \"What can AI do?\", more \"When must I not use AI, and why not?\".",
+      de: "Studierende, die in den kommenden Jahren an die Universität kommen, werden zunehmend KI-vertraut sein, aber nicht notwendigerweise KI-kritisch. Die Universität muss ihre Lehre auf ein neues Vorwissen einstellen: weniger «Was kann KI?», mehr «Wann darf ich KI nicht nutzen, und warum nicht?».",
+      en: "Students entering university in coming years will be increasingly AI-familiar, but not necessarily AI-critical. University teaching needs to adjust to new prior knowledge: less \"What can AI do?\", more \"When must I not use AI, and why not?\".",
     },
   },
   {

@@ -30,10 +30,10 @@ export default function ContactPage() {
               </dt>
               <dd>
                 <a
-                  href="mailto:anatoliadespina@gmail.com"
+                  href="mailto:despina.fidanoglu@uzh.ch"
                   className="text-uzh-blue hover:underline underline-offset-4 font-medium"
                 >
-                  anatoliadespina@gmail.com
+                  despina.fidanoglu@uzh.ch
                 </a>
               </dd>
             </div>
