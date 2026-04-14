@@ -12,6 +12,69 @@ export type Development = {
 
 export const developments: Development[] = [
   {
+    id: "claude-sonnet-4-6-long-context",
+    date: "2026-04-08",
+    dateLabel: { de: "April 2026", en: "April 2026" },
+    title: {
+      de: "Claude Sonnet 4.6 mit 1-Million-Token-Kontextfenster (Beta)",
+      en: "Claude Sonnet 4.6 launches 1M token context window (beta)",
+    },
+    what: {
+      de: "Anthropic hat mit Claude Sonnet 4.6 sein aktuelles Mittelklasse-Modell aktualisiert. Neu ist ein 1-Million-Token-Kontextfenster in der Beta-Phase, kombiniert mit verbesserter agentischer Suche und «Extended Thinking». Parallel wurde Claude Mythos Preview vorgestellt, aber nur einem geschlossenen Kreis von Technologieunternehmen im Rahmen von «Project Glasswing» zugänglich gemacht.",
+      en: "Anthropic has updated its mid-tier model with Claude Sonnet 4.6. New is a 1-million-token context window (beta), combined with improved agentic search and «extended thinking». In parallel, Anthropic disclosed Claude Mythos Preview, but restricted access to a closed consortium via «Project Glasswing».",
+    },
+    impact: {
+      de: "Für Daniels Seminararbeit praktisch relevant: Mit 1M Tokens lassen sich ganze Monographien oder umfangreiche Quelleneditionen in einem Prompt verarbeiten, ohne Chunking. Für geisteswissenschaftliches Arbeiten ist das besonders wertvoll, wenn Studierende etwa eine Primärquelle zusammen mit der Sekundärliteratur analysieren lassen wollen. Die eingeschränkte Veröffentlichung von Mythos zeigt zugleich einen Trend: leistungsstärkere Modelle werden selektiv ausgerollt — für die Lehre wird mittelfristig nicht immer das neueste Modell zugänglich sein.",
+      en: "Practically relevant for Daniel's seminar: 1M tokens allow entire monographs or large source editions to be processed in a single prompt, without chunking. Especially valuable in the humanities when students want to analyse a primary source together with secondary literature. The restricted release of Mythos reveals a trend: more powerful models are rolled out selectively — for teaching, the latest model won't always be accessible in the medium term.",
+    },
+    link: {
+      url: "https://www.anthropic.com/news",
+      label: { de: "Anthropic News öffnen", en: "Open Anthropic news" },
+    },
+  },
+  {
+    id: "canvas-igniteai-agent",
+    date: "2026-03-23",
+    dateLabel: { de: "März 2026", en: "March 2026" },
+    title: {
+      de: "Canvas lanciert «IgniteAI» – KI-Agent für Lehrende im LMS",
+      en: "Canvas launches «IgniteAI» – AI teaching agent in the LMS",
+    },
+    what: {
+      de: "Instructure, Betreiber des weltweit verbreiteten LMS Canvas, hat IgniteAI veröffentlicht. Der Agent automatisiert nach Anbieterangaben «niedrigwertige» Aufgaben wie Rubric-Erstellung, Content-Alignment und die Durchsicht von Forumsbeiträgen. Ziel sei es, Lehrenden mehr Zeit für Mentoring und individuelles Feedback zu verschaffen.",
+      en: "Instructure, operator of the widely-used LMS Canvas, has released IgniteAI. The agent automates what it describes as «low-value» tasks such as rubric generation, content alignment, and review of discussion contributions. The stated goal is to free up teaching time for mentoring and individual feedback.",
+    },
+    impact: {
+      de: "Die UZH nutzt OLAT, nicht Canvas, aber die Richtung ist eindeutig: LMS-Anbieter bauen KI-Agenten direkt in die Lernplattform ein und verschieben damit die Frage «Nutze ich KI im Unterricht?» hin zu «Welche LMS-internen KI-Funktionen akzeptiere ich?». Für Daniels Coaching interessant als Gesprächsanlass: Was würde eine automatische Rubric-Erstellung für sein Moldau-Seminar bedeuten — Zeitgewinn oder Verlust didaktischer Schärfe? Das Thema wird in den kommenden Monaten auch in OLAT- und ILIAS-Diskussionen auftauchen.",
+      en: "UZH uses OLAT, not Canvas, but the direction is clear: LMS vendors are embedding AI agents directly into the learning platform, shifting the question from «Do I use AI in class?» to «Which LMS-built-in AI features do I accept?». Useful for Daniel's coaching as a discussion prompt: what would automatic rubric generation mean for his Moldau seminar — time saved or loss of didactic sharpness? The topic will appear in OLAT and ILIAS discussions within the coming months.",
+    },
+    link: {
+      url: "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/03/23/canvas-unrolls-ai-teaching-agent",
+      label: { de: "Inside Higher Ed öffnen", en: "Open Inside Higher Ed" },
+    },
+  },
+  {
+    id: "schmidt-sciences-humanities-ai",
+    date: "2026-03-13",
+    dateLabel: { de: "März 2026", en: "March 2026" },
+    title: {
+      de: "Schmidt Sciences: 11 Mio. USD für KI in den Geisteswissenschaften",
+      en: "Schmidt Sciences: $11M for AI in the humanities",
+    },
+    what: {
+      de: "Schmidt Sciences hat eine neue Förderrunde im Rahmen des «Humanities and AI Virtual Institute» angekündigt. Gefördert werden unter anderem die Analyse mittelalterlicher Handschriften, archäologische Spurensuche anhand von Satellitenbildern sowie mehrsprachige Modelle für nicht-englische Quellenkorpora.",
+      en: "Schmidt Sciences has announced a new funding round under the «Humanities and AI Virtual Institute». Supported areas include medieval manuscript analysis, archaeological discovery via satellite imagery, and multilingual models for non-English source corpora.",
+    },
+    impact: {
+      de: "Für Daniel als Osteuropa-Historiker doppelt relevant: (1) Die Förderung mehrsprachiger Modelle adressiert direkt ein Kernproblem seines Forschungsfelds — dominante LLMs sind auf westeuropäischen und englischsprachigen Korpora trainiert und reproduzieren so eine Schieflage in der historiographischen Darstellung. (2) Die geförderten Projekte werden in den nächsten Jahren Werkzeuge produzieren, die auch im Seminar einsetzbar sein werden (z.B. Handschriftenerkennung für kyrillische oder rumänische Quellen). Die Projektliste lohnt sich zu verfolgen.",
+      en: "Doubly relevant for Daniel as an Eastern European historian: (1) Funding for multilingual models directly addresses a core problem of his field — dominant LLMs are trained on Western European and English-language corpora and reproduce a bias in historiographical representation. (2) Funded projects will produce tools usable in teaching over the coming years (e.g. handwriting recognition for Cyrillic or Romanian sources). Worth keeping an eye on the project list.",
+    },
+    link: {
+      url: "https://www.schmidtsciences.org/humanities-and-ai-virtual-institute/",
+      label: { de: "Schmidt Sciences öffnen", en: "Open Schmidt Sciences" },
+    },
+  },
+  {
     id: "google-educator-training",
     date: "2026-04-02",
     dateLabel: { de: "April 2026", en: "April 2026" },
