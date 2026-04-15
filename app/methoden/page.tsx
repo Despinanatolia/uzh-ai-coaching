@@ -1,6 +1,7 @@
 "use client";
 
 import MethodsAccordion from "@/components/MethodsAccordion";
+import LeitfragenAndResources from "@/components/LeitfragenAndResources";
 import { useI18n } from "@/components/I18nProvider";
 import { ui } from "@/data/translations";
 import { t } from "@/lib/i18n";
@@ -19,6 +20,7 @@ export default function MethodenPage() {
         {t(ui.methods_intro, lang)}
       </p>
       <MethodsAccordion />
+      <LeitfragenAndResources />
     </div>
   );
 }

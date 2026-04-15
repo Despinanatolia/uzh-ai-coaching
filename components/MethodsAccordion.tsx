@@ -8,9 +8,9 @@ import { t } from "@/lib/i18n";
 
 const categories: Array<{ id: MethodCategory | "all"; key: keyof typeof ui }> = [
   { id: "all", key: "methods_filter_all" },
-  { id: "critique", key: "cat_critique" },
-  { id: "socratic", key: "cat_socratic" },
   { id: "historiography", key: "cat_historiography" },
+  { id: "collaborative", key: "cat_collaborative" },
+  { id: "constructive", key: "cat_constructive" },
 ];
 
 export default function MethodsAccordion() {
@@ -33,9 +33,9 @@ export default function MethodsAccordion() {
   };
 
   const categoryLabel = (c: MethodCategory) => {
-    if (c === "critique") return t(ui.cat_critique, lang);
-    if (c === "socratic") return t(ui.cat_socratic, lang);
-    return t(ui.cat_historiography, lang);
+    if (c === "historiography") return t(ui.cat_historiography, lang);
+    if (c === "collaborative") return t(ui.cat_collaborative, lang);
+    return t(ui.cat_constructive, lang);
   };
 
   const toggle = (id: string) => {
@@ -81,6 +81,9 @@ export default function MethodsAccordion() {
                   <h3 className="text-lg md:text-xl font-semibold text-uzh-blue leading-tight">
                     {i + 1}. {t(m.title, lang)}
                   </h3>
+                  <p className="text-xs italic text-uzh-gray mt-1">
+                    {t(ui.methods_originator, lang)}: {t(m.originator, lang)}
+                  </p>
                   <div className="text-xs text-uzh-gray mt-2 flex flex-wrap gap-x-4 gap-y-1">
                     <span>
                       <strong className="text-uzh-blue">{t(ui.methods_category, lang)}:</strong>{" "}
@@ -113,40 +116,49 @@ export default function MethodsAccordion() {
                 <div className="px-5 pb-6 border-t border-gray-100 pt-4 space-y-5">
                   <div>
                     <h4 className="text-xs uppercase tracking-wide font-semibold text-uzh-gray mb-2">
-                      {t(ui.methods_problem, lang)}
+                      {t(ui.methods_principle, lang)}
                     </h4>
                     <p className="text-sm md:text-base text-gray-800 leading-relaxed">
-                      {t(m.problem, lang)}
+                      {t(m.principle, lang)}
                     </p>
                   </div>
 
                   <div>
                     <h4 className="text-xs uppercase tracking-wide font-semibold text-uzh-gray mb-2">
-                      {t(ui.methods_design, lang)}
+                      {t(ui.methods_ai_role, lang)}
                     </h4>
                     <p className="text-sm md:text-base text-gray-800 leading-relaxed">
-                      {t(m.design, lang)}
+                      {t(m.aiRole, lang)}
                     </p>
                   </div>
 
-                  {m.research && (
-                    <div className="bg-uzh-blue-light p-4 rounded-sm">
-                      <h4 className="text-xs uppercase tracking-wide font-semibold text-uzh-blue mb-2">
-                        {t(ui.methods_research_more, lang)}
-                      </h4>
-                      <p className="text-sm text-gray-800 leading-relaxed mb-2">
-                        {t(m.research.citation, lang)}
-                      </p>
+                  <div>
+                    <h4 className="text-xs uppercase tracking-wide font-semibold text-uzh-gray mb-2">
+                      {t(ui.methods_example, lang)}
+                    </h4>
+                    <p className="text-sm md:text-base text-gray-800 leading-relaxed">
+                      {t(m.example, lang)}
+                    </p>
+                  </div>
+
+                  <div className="bg-uzh-blue-light p-4 rounded-sm">
+                    <h4 className="text-xs uppercase tracking-wide font-semibold text-uzh-blue mb-2">
+                      {t(ui.methods_source, lang)}
+                    </h4>
+                    <p className="text-sm text-gray-800 leading-relaxed mb-1">
+                      {m.source.author} ({m.source.year}) – {m.source.title}
+                    </p>
+                    {m.source.url && (
                       <a
-                        href={m.research.url}
+                        href={m.source.url}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-sm text-uzh-blue font-medium hover:underline underline-offset-4 break-all"
                       >
-                        {m.research.url} ↗
+                        {m.source.url} ↗
                       </a>
-                    </div>
-                  )}
+                    )}
+                  </div>
                 </div>
               )}
             </article>

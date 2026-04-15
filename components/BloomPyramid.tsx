@@ -116,7 +116,30 @@ export default function BloomPyramid() {
               <h4 className="text-sm uppercase tracking-wide font-semibold text-uzh-blue mb-2">
                 {t(ui.bloom_activity, lang)}
               </h4>
+              <p className="text-xs uppercase tracking-wide text-uzh-gray mb-2">
+                {t(ui.bloom_method, lang)}:{" "}
+                <span className="font-semibold text-uzh-blue normal-case">
+                  {t(selected.method, lang)}
+                </span>
+              </p>
               <p className="leading-relaxed text-gray-900">{t(selected.activity, lang)}</p>
+              <p className="text-xs text-uzh-gray mt-3">
+                <span className="font-semibold">{t(ui.bloom_source, lang)}:</span>{" "}
+                {selected.source.url ? (
+                  <a
+                    href={selected.source.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:text-uzh-blue"
+                  >
+                    {selected.source.author} ({selected.source.year}) – {selected.source.title}
+                  </a>
+                ) : (
+                  <>
+                    {selected.source.author} ({selected.source.year}) – {selected.source.title}
+                  </>
+                )}
+              </p>
             </section>
 
             <section className="border-l-2 border-orange-400 pl-4">
